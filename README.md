@@ -1,14 +1,12 @@
-# Sorting Algorithms Program
+# Sorting Algorithms
 
-This program sorts numerical data using multiple sorting algorithms and allows users to choose between manual input or file loading. It provides options for sorting in ascending or descending order and saves the sorted data to a file.
+This C project sorts numerical data using various sorting algorithms and offers the flexibility to input data either manually or by loading it from a file. You can choose to sort the data in ascending or descending order, and the sorted result can be saved to a file for future reference.
 
-- **Sorting Algorithms**: Supports Bubble Sort, Quick Sort, and Merge Sort.
-- **Customizable Sorting Order**: Users can select ascending or descending sorting.
-- **File Handling**: Supports loading data from a file and saving sorted results.
-- **Interactive Input**: Allows users to manually enter numbers for sorting.
-- **Optimized Performance**: Includes early stopping for Bubble Sort and efficient Quick Sort and Merge Sort implementations.
+The way it works is by allowing you to input a list of numbers, either by entering them one at a time or by loading them from a file. You then select whether you want the data sorted in ascending or descending order. The program supports multiple sorting algorithms, including Bubble Sort, Quick Sort, and Merge Sort, each optimized for performance with features like early stopping for Bubble Sort and efficient implementations for the other algorithms. Once sorted, the results can be saved to a file for future use.
 
-## Example Usage
+I built this project to explore sorting algorithms and their performance. It was an interesting challenge to implement different algorithms and then optimize them. I also wanted to make the project interactive, so users can experiment with different methods and observe how the sorting process works in real time.
+
+## Example Output
 ```
 Choose input method:
 1 - Manual Entry
